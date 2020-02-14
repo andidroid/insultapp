@@ -5,9 +5,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insult Generator SQL</title>
+<title>Insult Generator</title>
 </head>
 <body>
+<h1>Insult Generator</h1>
 <%
 out.println(new InsultGenerator().generateInsult());
 %>
